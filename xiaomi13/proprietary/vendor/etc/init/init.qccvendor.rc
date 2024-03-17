@@ -9,11 +9,11 @@ on post-fs-data
     mkdir /data/vendor/qcc/shared/3 0770 system system
     mkdir /data/vendor/qcc/shared/1503 0770 system system
     mkdir /data/vendor/qcc/shared/qmct 0770 system system
-    mkdir /dev/socket/qcc_trd 0770 system
+    mkdir /dev/socket/qcc_trd 0770 system vendor_qtr
     chmod 2770 /dev/socket/qcc_trd
 
 service vendor.qcc-vendor /system/vendor/bin/qcc-vendor
     class late_start
     user system
-    group readproc system radio sdcard_rw media_rw sdcard_r
+    group vendor_qtr readproc system radio vendor_rfs_shared sdcard_rw media_rw sdcard_r
 
