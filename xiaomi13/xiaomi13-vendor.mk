@@ -3171,8 +3171,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/vendor.qti.hardware.power.powermodule@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.power.powermodule@1.0.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.memory.pasrmanager@1.0.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.memory.pasrmanager@1.1.so
-
+    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.memory.pasrmanager@1.1.so \
+    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libmemutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemutils.so \
+    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libqdcm-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdcm-algo.so \
+    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libqdcm-json-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdcm-json-mode-parser.so \
+    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libqdcm-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdcm-mode-parser.so \
+    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdutils.so
 
 PRODUCT_PACKAGES += \
     libar-gsl \
