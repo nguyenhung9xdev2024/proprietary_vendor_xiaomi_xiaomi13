@@ -1437,7 +1437,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/odm/overlayfs/nuwa/odm/lib64/libTrueSight.so:$(TARGET_COPY_OUT_ODM)/overlayfs/nuwa/odm/lib64/libTrueSight.so \
     vendor/xiaomi/xiaomi13/proprietary/odm/lib64/libXMFaceFocus.so:$(TARGET_COPY_OUT_ODM)/lib64/libXMFaceFocus.so \
     vendor/xiaomi/xiaomi13/proprietary/odm/overlayfs/nuwa/odm/lib64/libXMFaceFocus.so:$(TARGET_COPY_OUT_ODM)/overlayfs/nuwa/odm/lib64/libXMFaceFocus.so \
-    vendor/xiaomi/xiaomi13/proprietary/odm/lib64/libagmdevice.so:$(TARGET_COPY_OUT_ODM)/lib64/libagmdevice.so \
     vendor/xiaomi/xiaomi13/proprietary/odm/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_ODM)/lib64/libaidenoiser.so \
     vendor/xiaomi/xiaomi13/proprietary/odm/overlayfs/nuwa/odm/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_ODM)/overlayfs/nuwa/odm/lib64/libaidenoiser.so \
     vendor/xiaomi/xiaomi13/proprietary/odm/lib64/libaidenoiserv2.so:$(TARGET_COPY_OUT_ODM)/lib64/libaidenoiserv2.so \
@@ -2510,11 +2509,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadm.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_compress_plugin.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_mixer_plugin.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_pcm_plugin.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmclient.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmmixer.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libats.so \
