@@ -3332,4 +3332,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.sensor.citsensorservice@2.0-service \
     vendor.xiaomi.sensor.communicate@1.0_manifest \
     vendor.qti.hardware.AGMIPC@1.0-impl \
-    vendor.qti.hardware.pal@1.0-impl
+    vendor.qti.hardware.pal@1.0-impl \
+    vendor.qti.hardware.perf \
+    vendor.qti.hardware.power.powermodule
